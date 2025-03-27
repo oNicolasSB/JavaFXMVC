@@ -5,5 +5,6 @@ module javafxmvc {
 
     opens javafxmvc to javafx.graphics, javafx.fxml;
     opens javafxmvc.controller to javafx.fxml;
+    opens javafxmvc.model.domain to javafx.base;
     exports javafxmvc;
 }
