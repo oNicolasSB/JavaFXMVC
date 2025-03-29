@@ -2,6 +2,7 @@ package javafxmvc.model.domain;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Venda implements Serializable {
@@ -14,6 +15,7 @@ public class Venda implements Serializable {
     private Cliente cliente;
 
     public Venda() {
+        itensDeVenda = new ArrayList<>();
     }
 
     public Venda(int cdvenda, LocalDate data, double valor, boolean pago) {
