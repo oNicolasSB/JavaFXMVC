@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.AnchorPaneGraficosVendasPorMesController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="50.0" title="Vendas por mês">
+        <xAxis>
+          <CategoryAxis fx:id="categoryAxis" label="Mês" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="numberAxis" label="Vendas" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

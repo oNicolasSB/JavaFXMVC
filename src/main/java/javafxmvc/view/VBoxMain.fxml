@@ -24,7 +24,7 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Gráficos">
                <items>
-                  <MenuItem fx:id="menuItemGraficosVendasPorMes" mnemonicParsing="false" text="Vendas por mês" />
+                  <MenuItem fx:id="menuItemGraficosVendasPorMes" mnemonicParsing="false" onAction="#handleMenuItemGraficosVendasPorMes" text="Vendas por mês" />
                </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Relatórios">

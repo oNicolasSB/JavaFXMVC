@@ -43,4 +43,11 @@ public class VBoxMainController implements Initializable {
         anchorPane.getChildren().setAll(a);
     }
 
+    @FXML
+    public void handleMenuItemGraficosVendasPorMes() throws IOException {
+        AnchorPane a = (AnchorPane) FXMLLoader
+                .load(getClass().getResource("/javafxmvc/view/AnchorPaneGraficosVendasPorMes.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+
 }
